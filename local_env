@@ -1,0 +1,4 @@
+export YOUR_CHANNEL_ACCESS_TOKEN=7ZZSiJ8TIyV5b+KE7wfH1zKCwWcLhRy6dZjmY6BJxxvYBJtIC60Khtz00JjEvNVULLB4+8kHaIgrcYuB+4KF4OkZ68u60V8RHzuZ4+K39LcjAB1nbSLfTDOyrN7u98BPsiE/DAhAMkYkO7T0Kc1CmQdB04t89/1O/w1cDnyilFU=
+export YOUR_CHANNEL_SECRET=b4f98acf33eeedc92517bb2250d60a35
+export IBM_API_KEY=EgTGAQIHOkU-JShhsukQa7VT2fK-dOY1uZIY-yQtUcBO
+export IBM_URL=https://api.jp-tok.speech-to-text.watson.cloud.ibm.com/instances/34788e49-bc1d-4b76-afd4-a52cdaa8065f
