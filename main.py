@@ -69,10 +69,10 @@ def get_audio_content(event):
     sound = AudioSegment.from_file(FILE_NAME, format="m4a")
     sound.export("audio_message", format="mp3")
     text_transcripted = speechtranscript.transcript(file_name=FILE_NAME)
-    print(text_transcripted)
+
     line_bot_api.reply_message(
         event.reply_token,
-        TextSendMessage(text='audio_file'))
+        TextSendMessage(text=text_transcripted))
 
 if __name__ == "__main__":
 #    app.run()

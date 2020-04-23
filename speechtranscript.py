@@ -20,5 +20,11 @@ class SpeechTranscript():
             model='ja-JP_BroadbandModel',)
 
             response_dic = response.get_result()
-            print(response_dic['results'][0]['alternatives'][0]['transcript'])
-            return response_dic['results'][0]['alternatives'][0]['transcript']
+
+            try:
+                print(response_dic['results'][0]['alternatives'][0]['transcript'])
+                return_text = response_dic['results'][0]['alternatives'][0]['transcript']
+            except IndexError:
+                return_text = 'speak something!!!!!!!'
+
+            return return_text
